@@ -1,0 +1,12 @@
+.article {
+    height: 30px;
+    background-color: #008080;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+}
