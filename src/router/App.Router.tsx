@@ -8,7 +8,8 @@ import {
  ProductList,
  Register,
  SignUp,
- Success
+ Success,
+ TopBar
 } from '../pages'
 
 const AppRouter = () => {
@@ -29,7 +30,8 @@ const AppRouter = () => {
     }, [scrollY]);
     return (
         <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/topbar" element={<TopBar/>}/>
+            <Route path="/*" element={<Home/>}/>
             <Route path="/cart" element={<Cart/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/product" element={<Product/>}/>

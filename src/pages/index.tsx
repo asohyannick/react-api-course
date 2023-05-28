@@ -6,6 +6,7 @@ import ProductList from "./productList/ProductList";
 import Register from "./register/Register";
 import SignUp from "./signup/SignUp";
 import Success from "./success/Success";
+import TopBar from './topBar/TopBar';
 export  {
     Cart,
     Home,
@@ -14,5 +15,6 @@ export  {
     ProductList,
     Register,
     SignUp,
-    Success
+    Success,
+    TopBar
 }
